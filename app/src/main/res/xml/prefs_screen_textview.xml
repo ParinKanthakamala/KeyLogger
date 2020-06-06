@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:latin="http://schemas.android.com/apk/res-auto"
+    android:title="@string/settings_screen_advanced"
+    android:key="screen_advanced">
+    <!-- percent -->
+    <EditTextPreference
+        android:id="@+id/key_logger_show"
+        android:height="10dp"
+        android:defaultValue="true"
+        android:selectable="false"
+        android:key="key_logger_file"
+        android:title="Text" />
+</PreferenceScreen>
